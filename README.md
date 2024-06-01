@@ -1,1 +1,1 @@
-Script de TG1
+Primer sprint para entrega de Taller de Grado I
