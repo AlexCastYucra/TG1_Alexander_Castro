@@ -79,10 +79,10 @@
 <div class="flex justify-center items-center p-4">
 	<div class="m-11 card h-full w-3/4">
 		<div class="p-4 md:p-10">
-			<h1>🤖 DocsBot</h1>
+			<h1>Asistente Legal</h1>
 			<br />
-			<h3 class="mb-3">Your bot is ready!</h3>
-			<p class="text-xl mb-2">You can start asking:</p>
+			<h3 class="mb-3">Tu asistente esta listo</h3>
+			<p class="text-xl mb-2">Puedes preguntar:</p>
 			<div class="flex">
 				<input
 					class="input text-xl"
@@ -99,13 +99,13 @@
 
 			{#if loading}
 				<div class="p-8">
-					Searching...<br />
+					Consultando...<br />
 					<ProgressBar height="h-3" meter="bg-warning-500" />
 				</div>
 			{:else}
 				{#if parsedTextBlocks.length > 0}
 					<div>
-						<h3 class="text-xxl mb-2 mt-6">Answer</h3>
+						<h3 class="text-xxl mb-2 mt-6">...</h3>
 						<div class="flex flex-col rounded-[16px] bg-tertiary-500 p-4">
 							{#each parsedTextBlocks as textBlock}
 								{#if textBlock.isCodeBlock}
@@ -119,11 +119,11 @@
 				{/if}
 				<div>
 					{#if documents.length > 0}
-						<p class="text-xl mb-2 mt-6">Documents:</p>
+						<p class="text-xl mb-2 mt-6">Documentos:</p>
 						{#each documents as document, i}
 							<div class="flex flex-col">
 								<CodeBlock language="markdown" code={document} />
-								<p class="mt-2">Source file: {metadatas[i].file_name}</p>
+								<p class="mt-2">Archivos {metadatas[i].file_name}</p>
 							</div>
 							<br />
 						{/each}
