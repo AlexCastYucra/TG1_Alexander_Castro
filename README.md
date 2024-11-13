@@ -21,6 +21,12 @@ instalar las dependencias
 > pip install Flask-CORS
 > pip install chromadb
 
+Ejecutar en Backend una ruta para el guardado de datos de chroma
+
+> chroma run --path C:/Users/HP/ALEXANDER/chromad_path
+> En un nuevo entorno virtual
+> flask run
+
 Dentro de webapp instalar
 
 > npm install svelte
