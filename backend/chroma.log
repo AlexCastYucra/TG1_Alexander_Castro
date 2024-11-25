@@ -90,3 +90,345 @@
 [36mDEBUG[0m:    [11-11-2024 02:36:46] Stopping component OpenTelemetryClient
 [32mINFO[0m:     [11-11-2024 02:36:46] Application shutdown complete.
 [32mINFO[0m:     [11-11-2024 02:36:46] Finished server process [[36m19768[0m]
+[33mWARNING[0m:  [17-11-2024 17:25:26] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [17-11-2024 17:25:27] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component System
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component SqliteDB
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component Posthog
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component LocalExecutor
+[36mDEBUG[0m:    [17-11-2024 17:25:27] Starting component SegmentAPI
+[32mINFO[0m:     [17-11-2024 17:25:27] Started server process [[36m13236[0m]
+[32mINFO[0m:     [17-11-2024 17:25:27] Waiting for application startup.
+[32mINFO[0m:     [17-11-2024 17:25:27] Application startup complete.
+[32mINFO[0m:     [17-11-2024 17:25:27] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [18-11-2024 01:30:26] Shutting down
+[32mINFO[0m:     [18-11-2024 01:30:26] Waiting for application shutdown.
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component System
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component SegmentAPI
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component LocalExecutor
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component Posthog
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component SqliteDB
+[36mDEBUG[0m:    [18-11-2024 01:30:26] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [18-11-2024 01:30:26] Application shutdown complete.
+[32mINFO[0m:     [18-11-2024 01:30:26] Finished server process [[36m13236[0m]
+[33mWARNING[0m:  [20-11-2024 16:19:12] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-11-2024 16:19:13] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component System
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component SqliteDB
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component Posthog
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component LocalExecutor
+[36mDEBUG[0m:    [20-11-2024 16:19:13] Starting component SegmentAPI
+[32mINFO[0m:     [20-11-2024 16:19:13] Started server process [[36m11236[0m]
+[32mINFO[0m:     [20-11-2024 16:19:13] Waiting for application startup.
+[32mINFO[0m:     [20-11-2024 16:19:13] Application startup complete.
+[32mINFO[0m:     [20-11-2024 16:19:13] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-11-2024 16:43:22] ::1:63334 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:43:23] ::1:63335 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:43:23] ::1:63335 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 16:43:23] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 16:43:23] ::1:63334 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 16:43:23] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-11-2024 16:43:23] ::1:63334 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:46:14] ::1:63347 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:46:15] ::1:63348 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:46:15] ::1:63348 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 16:46:15] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 16:46:15] ::1:63347 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:46:15] ::1:63347 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:47:00] ::1:63354 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:47:00] ::1:63355 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:47:00] ::1:63355 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 16:47:00] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 16:47:00] ::1:63354 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 16:47:00] ::1:63354 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 17:10:24] Shutting down
+[32mINFO[0m:     [20-11-2024 17:10:24] Waiting for application shutdown.
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component System
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component SegmentAPI
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component LocalExecutor
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component Posthog
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component SqliteDB
+[36mDEBUG[0m:    [20-11-2024 17:10:24] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [20-11-2024 17:10:24] Application shutdown complete.
+[32mINFO[0m:     [20-11-2024 17:10:24] Finished server process [[36m11236[0m]
+[33mWARNING[0m:  [20-11-2024 19:00:04] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-11-2024 19:00:05] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component System
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component SqliteDB
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component Posthog
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component LocalExecutor
+[36mDEBUG[0m:    [20-11-2024 19:00:05] Starting component SegmentAPI
+[32mINFO[0m:     [20-11-2024 19:00:05] Started server process [[36m15912[0m]
+[32mINFO[0m:     [20-11-2024 19:00:05] Waiting for application startup.
+[32mINFO[0m:     [20-11-2024 19:00:05] Application startup complete.
+[32mINFO[0m:     [20-11-2024 19:00:05] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-11-2024 19:21:15] ::1:51331 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:21:15] ::1:51332 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:21:15] ::1:51332 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:21:15] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:21:15] ::1:51331 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:21:16] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-11-2024 19:21:16] ::1:51331 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:22:49] Shutting down
+[32mINFO[0m:     [20-11-2024 19:22:49] Waiting for application shutdown.
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component System
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component SegmentAPI
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component LocalExecutor
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component Posthog
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component SqliteDB
+[36mDEBUG[0m:    [20-11-2024 19:22:49] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [20-11-2024 19:22:49] Application shutdown complete.
+[32mINFO[0m:     [20-11-2024 19:22:49] Finished server process [[36m15912[0m]
+[33mWARNING[0m:  [20-11-2024 19:26:16] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-11-2024 19:26:17] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component System
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component SqliteDB
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component Posthog
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component LocalExecutor
+[36mDEBUG[0m:    [20-11-2024 19:26:17] Starting component SegmentAPI
+[32mINFO[0m:     [20-11-2024 19:26:17] Started server process [[36m3596[0m]
+[32mINFO[0m:     [20-11-2024 19:26:17] Waiting for application startup.
+[32mINFO[0m:     [20-11-2024 19:26:17] Application startup complete.
+[32mINFO[0m:     [20-11-2024 19:26:17] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-11-2024 19:27:34] ::1:51671 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:27:34] ::1:51672 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:27:34] ::1:51672 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:27:34] Collection docs_rust_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:27:34] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:27:35] ::1:51671 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:27:35] Starting component PersistentLocalHnswSegment
+[33mWARNING[0m:  [20-11-2024 19:27:35] Add of existing embedding ID: 1
+[33mWARNING[0m:  [20-11-2024 19:27:35] Add of existing embedding ID: 1
+[33mWARNING[0m:  [20-11-2024 19:27:35] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [20-11-2024 19:27:35] Add of existing embedding ID: 1
+[32mINFO[0m:     [20-11-2024 19:27:35] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:35] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:35] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:35] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:35] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:35] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:36] ::1:51671 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [20-11-2024 19:27:55] ::1:51682 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:27:56] ::1:51683 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:27:56] ::1:51683 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:27:56] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:27:56] ::1:51682 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:27:56] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-11-2024 19:27:56] ::1:51682 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:28:58] ::1:51691 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:28:59] ::1:51692 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:28:59] ::1:51692 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:28:59] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:28:59] ::1:51691 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:28:59] ::1:51691 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:46] ::1:51707 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:46] ::1:51708 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:46] ::1:51708 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:29:46] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:29:46] ::1:51707 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:46] ::1:51707 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:58] ::1:51715 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:59] ::1:51716 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:59] ::1:51716 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:29:59] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:29:59] ::1:51715 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:29:59] ::1:51715 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:15] ::1:51722 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:15] ::1:51723 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:16] ::1:51723 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:30:16] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:30:16] ::1:51722 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:16] ::1:51722 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:32] ::1:51727 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:32] ::1:51728 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:32] ::1:51728 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:30:32] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:30:32] ::1:51727 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:30:32] ::1:51727 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:31:51] ::1:51746 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:31:52] ::1:51747 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:31:52] ::1:51747 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-11-2024 19:31:52] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-11-2024 19:31:52] ::1:51746 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [20-11-2024 19:31:52] ::1:51746 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[33mWARNING[0m:  [22-11-2024 02:13:01] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [22-11-2024 02:13:02] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component System
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component SqliteDB
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component Posthog
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component LocalExecutor
+[36mDEBUG[0m:    [22-11-2024 02:13:02] Starting component SegmentAPI
+[32mINFO[0m:     [22-11-2024 02:13:02] Started server process [[36m19452[0m]
+[32mINFO[0m:     [22-11-2024 02:13:02] Waiting for application startup.
+[32mINFO[0m:     [22-11-2024 02:13:02] Application startup complete.
+[32mINFO[0m:     [22-11-2024 02:13:02] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [22-11-2024 03:53:34] ::1:53441 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:53:35] ::1:53442 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:53:35] ::1:53442 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 03:53:35] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [22-11-2024 03:53:35] ::1:53441 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 03:53:35] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [22-11-2024 03:53:35] ::1:53441 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:17] ::1:53452 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:17] ::1:53453 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53453 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 03:54:18] Collection docs_rust_collection already exists, returning existing collection.
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 03:54:18] Starting component PersistentLocalHnswSegment
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 1
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 1
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 1
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 1
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 2
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 3
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 4
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 4
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 5
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 5
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 6
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 6
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 7
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 7
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 8
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 8
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 9
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 9
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 10
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 10
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 11
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 11
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 12
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 12
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 13
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 13
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:18] Insert of existing embedding ID: 14
+[33mWARNING[0m:  [22-11-2024 03:54:18] Add of existing embedding ID: 14
+[32mINFO[0m:     [22-11-2024 03:54:18] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:19] Insert of existing embedding ID: 15
+[33mWARNING[0m:  [22-11-2024 03:54:19] Add of existing embedding ID: 15
+[32mINFO[0m:     [22-11-2024 03:54:19] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[33mWARNING[0m:  [22-11-2024 03:54:19] Insert of existing embedding ID: 16
+[33mWARNING[0m:  [22-11-2024 03:54:19] Add of existing embedding ID: 16
+[32mINFO[0m:     [22-11-2024 03:54:19] ::1:53452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53458 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53458 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 03:54:30] Collection docs_rust_collection already exists, returning existing collection.
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:30] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 03:54:31] ::1:53457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53509 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53509 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 04:01:09] Collection docs_rust_collection already exists, returning existing collection.
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:09] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:01:10] ::1:53508 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/73810b06-3f5a-4843-b728-36cc128e4fdd/add HTTP/1.1" 201
+[32mINFO[0m:     [22-11-2024 04:02:10] ::1:53519 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:02:11] ::1:53520 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:02:11] ::1:53520 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 04:02:11] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [22-11-2024 04:02:11] ::1:53519 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:02:11] ::1:53519 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/816f128e-4ef3-4ac4-9a3a-115248c3acc2/query HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 04:08:37] Shutting down
+[32mINFO[0m:     [22-11-2024 04:08:37] Waiting for application shutdown.
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component System
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component SegmentAPI
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component LocalExecutor
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component Posthog
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component SqliteDB
+[36mDEBUG[0m:    [22-11-2024 04:08:37] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [22-11-2024 04:08:37] Application shutdown complete.
+[32mINFO[0m:     [22-11-2024 04:08:37] Finished server process [[36m19452[0m]

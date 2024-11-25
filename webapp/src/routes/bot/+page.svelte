@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { PUBLIC_PROCESS_FILES_SERVER } from '$env/static/public';
 	import { CodeBlock, ProgressBar } from '@skeletonlabs/skeleton';
+	import { PUBLIC_CHATBOT_NAME } from '$env/static/public';
+
 	let query = '';
 	let documents: string[] = [];
 	let metadatas: MetaData[] = [];
@@ -79,9 +81,9 @@
 <div class="flex justify-center items-center p-4">
 	<div class="m-11 card h-full w-3/4">
 		<div class="p-4 md:p-10">
-			<h1>Asistente Legal</h1>
+			<h1><strong>{PUBLIC_CHATBOT_NAME || 'DocsBot'}</strong></h1>
 			<br />
-			<h3 class="mb-3">Tu asistente esta listo</h3>
+			<h3 class="mb-3">Estoy listo</h3>
 			<p class="text-xl mb-2">Puedes preguntar:</p>
 			<div class="flex">
 				<input
@@ -93,7 +95,7 @@
 				<button
 					type="button"
 					class="btn variant-filled-secondary w-1/5 ml-4 text-xl"
-					on:click={queryEmbeddings}>Ask</button
+					on:click={queryEmbeddings}>Preguntar</button
 				>
 			</div>
 

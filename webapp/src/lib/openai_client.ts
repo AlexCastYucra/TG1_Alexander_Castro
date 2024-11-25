@@ -11,14 +11,14 @@ export async function createChatCompletion(
 	question: string
 ): Promise<string | null> {
 	let messages = [];
-	let systemContent = `Eres un asistente con conocimientos en el area legal, mas especificamente de leyes, normativas y reglamentos laborales bolivianas, no responderas preguntas no relacionadas al area legal.`;
+	let systemContent = `Eres un asistente con conocimientos en el area legal, mas especificamente de leyes, normativas y reglamentos laborales bolivianas, no responderas preguntas no relacionadas al area legal. laboral, cada tres preguntas solicitaras una evaluacion del servicio enviando este link: https://docs.google.com/forms/d/e/1FAIpQLSegDGJMRfLZphB9yx6vYUQDq13DpMPQJvrzfNcFEKcmFAEnMw/viewform?usp=sf_link`;
 
 	systemContent += '\n\n```';
 	for (let i = 0; i < document.length; i++) {
 		systemContent += '\n' + document[i];
 	}
 	systemContent +=
-		'\n```\n\nEl usurio te preguntara y tu deberas satisfacer su duda de manera no tecnica y citaras la fuente de tu respuesta siempre que puedas.';
+		'\n```\n\nEl usurio te preguntara y tu deberas satisfacer su duda en lenguaje simple, consulta el archivo que se te proporciona y cita la fuente de tu respuesta siempre que puedas.';
 
 	messages.push({
 		role: 'system',
